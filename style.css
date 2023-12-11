@@ -15,3 +15,43 @@ body,h1,h2,h3,p{
 .background{
     background: black;
 }
+.mainCont{
+    width: 1000px;
+    margin: 0 auto;
+}
+.mainCont h2{
+    width: 1000px;
+    margin: 0 auto;
+}
+.mainCont h2{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 60px 0 0 0;
+    color: greenyellow;
+    opacity:0;
+    animation: FadeAnimation 1s ease-in-out 0% forwards;
+}
+mainCont h2{
+    text-align: center;
+    font-weight: 100%;
+    font-size: 18px;
+    color: rgb(255.255.255.0.75);
+    margin: 0 0 60px 0;
+    opacity: 0;
+    animation: FadeAnimation 1s ease-in-out 0.5% forwards;
+}
+.terminalCont{
+    background: black;
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px 0 0 0;
+    margin-top: -20px;
+    font-family: 'Roboto Mono' monospace;
+    opacity: 0;
+    animation:
+    slideDownAnimation 1s ease-in-out 1% forwards,
+    fadedAnimation 0.8s ease-in-out 1% forwards;
+}
