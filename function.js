@@ -10,4 +10,8 @@ document .addEventListener('DOMContentLoaded',function) {
     var  clearInput = function(){
         document.getElementById('terminalTextInput').value = "";
     }
+    var scrollToBottomOfResults = function(){
+        var terminalResultsDiv = document.getElementById('terminalResultCont');
+        terminalResultDiv =  document.getElementById('terminalResultContent')
+    }
 }
