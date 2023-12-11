@@ -15,4 +15,9 @@ document .addEventListener('DOMContentLoaded',function) {
         terminalResultDiv =  document.getElementById('terminalResultContent')
     }
     scrollToBottomOfResults();
+
+    var addTextToResults = function(textToAdd){
+        document.getElementById('TerminalResultCont').innerHTML += "<p>" + textToAdd + "</p>";
+        scrollToBottomOfResults();
+    }
 }
