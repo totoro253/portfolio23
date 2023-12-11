@@ -6,3 +6,5 @@ document .addEventListener('DOMContentLoaded',function) {
 
     document.getElementById('terminalTextInput').focus();
     var textInputValue = document.getElementById('terminalTextInput').value.trim();
+    var textResultsValue = document.getElementById('terminalsResultCont').innerHTML;
+
