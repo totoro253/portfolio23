@@ -108,3 +108,22 @@ body,h1,h2,h3,p{
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+@-webkit-keyframes slideAnimation{
+    0% {opacity: 20px;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes slideAnimation{
+    0% {opacity: 20px;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes slideAnimation{
+    0% {opacity: 20px;}
+    100% {opacity: 1;}
+}
+@keyframes slideAnimation{
+    0% {opacity: 20px;}
+    100% {opacity: 1;}
+}
