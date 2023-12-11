@@ -20,4 +20,13 @@ document .addEventListener('DOMContentLoaded',function) {
         document.getElementById('TerminalResultCont').innerHTML += "<p>" + textToAdd + "</p>";
         scrollToBottomOfResults();
     }
+    var postHelpList = function(){
+        var helpKeyWords = [
+            "- 'About me' get to know me",
+            "-  'Stack' get to know my current stack",
+            "- 'Progress' check my learning curve",
+            "- 'Projects' check my finished projects"
+        ].join('<br>')
+        addTextToResults(helpKeyWords);
+    }
 }
