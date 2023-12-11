@@ -1,0 +1,48 @@
+html{
+    box-sizing:border-box;
+}
+*,*:before, *after{
+    box-sizing: inherit;
+}
+body{
+    background-color: black;
+    font-family:'Roboto','Helvetica Neue','Lucida Grande', sans-serif;
+}
+body,h1,h2,h3,p{
+    margin: 0;
+    padding:  0;
+}
+
+
+
+.topnav {
+    background-color: black ;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #4AF626;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: 4AF626;
+  }
+  
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #4AF626;
+    padding: 10px;
+  }
