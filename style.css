@@ -34,7 +34,7 @@ body,h1,h2,h3,p{
     opacity:0;
     animation: FadeAnimation 1s ease-in-out 0% forwards;
 }
-mainCont h2{
+.mainCont h2{
     text-align: center;
     font-weight: 100%;
     font-size: 18px;
@@ -88,4 +88,23 @@ mainCont h2{
     font-size: 14px;
     outline:none;
     font-family: 'Roboto mono' monospace;
+}
+
+@-webkit-keyframes fadeAnimation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeAnimation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes fadeAnimation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeAnimation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
