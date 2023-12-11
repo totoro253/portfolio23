@@ -55,3 +55,37 @@ mainCont h2{
     slideDownAnimation 1s ease-in-out 1% forwards,
     fadedAnimation 0.8s ease-in-out 1% forwards;
 }
+.userEnteredText{
+    color: rgb(255.255.255.0.5); 
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#terminalResultCont{
+    width:100%;
+    height: 400px;
+    padding: 12px;
+    overflow-y: auto;
+    resize: none;
+    border: none;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    color: rgb(255.255.255.0.9);
+}
+#terminalResultCont a{
+    color: rgb(255.255.255.0.9);
+    text-decoration: underline;
+}
+#terminalTextInput{
+    background-color: black;
+    display: block;
+    border-top: 1px solid(255,255,255,0.2);
+    border-radius: 0 0 4px 4px;
+    width: 100%;
+    color: greenyellow;
+    padding: 18px;
+    font-size: 14px;
+    outline:none;
+    font-family: 'Roboto mono' monospace;
+}
