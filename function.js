@@ -14,4 +14,5 @@ document .addEventListener('DOMContentLoaded',function) {
         var terminalResultsDiv = document.getElementById('terminalResultCont');
         terminalResultDiv =  document.getElementById('terminalResultContent')
     }
+    scrollToBottomOfResults();
 }
