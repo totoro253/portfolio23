@@ -40,9 +40,9 @@ body,h1,h2,h3,p{
     background-color: 4AF626;
   }
   
-  .center {
+  .content {
     margin: auto;
     width: 60%;
-    border: 3px solid #4AF626;
+    color:  #4AF626;
     padding: 10px;
   }
